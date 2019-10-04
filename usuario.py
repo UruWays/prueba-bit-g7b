@@ -1,5 +1,8 @@
+from datetime import datetime
+
 class Usuario:
 	nombre="Pepe"
+	fechaNacimiento=datetime.now()
 
 def AltaUsuario():
 	pass
